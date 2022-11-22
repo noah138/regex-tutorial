@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Matching a URL using Regular Expressions
 
-Introductory paragraph (replace this with your text)
+A regular expression, or regex, is a sequence of characters that allows you to create patterns to search for in text. This tutorial explains how to search for a url using a regex.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex used to search for a url in is as follows:
+`/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
+Each character is in a specific order and combined with other characters to search exclusively for valid urls. In the following tutorial, I will explain the significance of each character and its placement in the regex.
 
 ## Table of Contents
 
@@ -22,28 +24,40 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
+
 ### Anchors
+
 
 ### Quantifiers
 
+
 ### OR Operator
+
 
 ### Character Classes
 
+
 ### Flags
+
 
 ### Grouping and Capturing
 
+
 ### Bracket Expressions
+
 
 ### Greedy and Lazy Match
 
+
 ### Boundaries
+
 
 ### Back-references
 
+
 ### Look-ahead and Look-behind
+
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Noah Schwartz - Github: [github.com/noah138](github.com/noah138)
